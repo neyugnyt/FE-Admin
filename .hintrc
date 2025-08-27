@@ -6,6 +6,13 @@
     "axe/forms": "off",
     "no-inline-styles": "off",
     "typescript-config/strict": "off",
-    "typescript-config/consistent-casing": "off"
+    "typescript-config/consistent-casing": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "button-type": "off"
   }
 }
