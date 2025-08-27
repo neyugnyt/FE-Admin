@@ -6,6 +6,6 @@ export const environment = {
   name: 'dev',
   production: false,
   iswithCredentials: true,
-  host: 'http://tynguyenshop.runasp.net',
+  host: 'https://demo-j0rw.onrender.com',
   client: 'https://localhost:44309'
 };
