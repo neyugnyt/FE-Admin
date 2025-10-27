@@ -7,5 +7,5 @@ export const environment = {
   production: false,
   iswithCredentials: true,
   host: 'https://demo-j0rw.onrender.com',
-  client: 'https://localhost:44309'
+  client: 'https://fe-user-seven.vercel.app'
 };
