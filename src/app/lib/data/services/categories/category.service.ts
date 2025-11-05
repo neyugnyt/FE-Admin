@@ -6,11 +6,15 @@ import { CategoryModel } from "../../models/categories/category.model";
 export class CategoryService  {
 
     private url = '/api/category';
-
+    private specificUrl = '/api/all-category';
     constructor(private httpClient: HttpClientService) { }
 
     get(request: any) {
       return this.httpClient.getObservable(this.url, request).toPromise();
+    }
+
+    getAll(request: any) {
+      return this.httpClient.getObservable(this.specificUrl, request).toPromise();
     }
 
     create(model: CategoryModel) {

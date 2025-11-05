@@ -73,7 +73,7 @@ export class ProductDetailsComponent implements OnInit {
 
   fetchCategory() {
     this.categoryService
-      .get(null)
+      .getAll(null)
       .then((res: ReturnMessage<PageModel<CategoryModel>>) => {
         if (!res.hasError) {
           this.categories = res.data.results.filter(

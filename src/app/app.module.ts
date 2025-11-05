@@ -20,7 +20,6 @@ import { AuthService } from './lib/data/services';
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
-    HttpClientModule,
     FilesModule,
     NgHttpLoaderModule.forRoot(),
   ],
